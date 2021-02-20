@@ -29,8 +29,8 @@
 .two{
 	background-color:#84C783;
 	width:80%;
-	height:800px;
 	margin:0 auto;
+	border:1px #84C783 solid;
 	
 }
 .one{
@@ -45,8 +45,9 @@
 }
 .five{
 	width:80%;
-	height:400px;
+	
 	margin:0 auto;
+	
 }
 .six{
 	width:95%;
@@ -56,6 +57,7 @@
 	width:80%;
 	margin:0 auto;
 	border-top:1px black solid;
+	
 }
 .seven{
 	display:block;
@@ -64,7 +66,26 @@
 	height:25px;
 	margin:5px;
 }
-*{
-	border:1px red solid;
+h2{
+	padding:15px;
+	width:200px;
+	margin:0 auto;
+}
+#border{
+	border:1px #b9ffae solid;
+	width:80%;
+	margin:0 auto;
+	border-radius: 5px 5px;
+	background-color:#c1f5bb;
+}
+#video{
+	margin:0 auto;
+	
+}
+#float{
+	width:50%;
+	float:left;
+	
+	
 	
 }
