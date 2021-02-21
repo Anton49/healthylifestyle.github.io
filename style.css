@@ -1,3 +1,10 @@
+.vid{
+	display:block;
+	margin:0 auto;
+	width: 60%;
+	border:1px #c1f5bb solid;
+}
+
 #navbar {
   margin:0 auto;
   padding: 0;
@@ -31,12 +38,14 @@
 	width:80%;
 	margin:0 auto;
 	border:1px #84C783 solid;
+	border-radius: 5px 5px;
 	
 }
 .one{
 	display:block;
 	margin:0 auto;
 	width:80%;
+
 }
 .four{
 	display:block;
@@ -70,6 +79,7 @@ h2{
 	padding:15px;
 	width:200px;
 	margin:0 auto;
+	
 }
 #border{
 	border:1px #b9ffae solid;
@@ -87,5 +97,10 @@ h2{
 	float:left;
 	
 	
+	
+}
+h3{
+	
+	border-bottom:1px #03802a solid;
 	
 }
