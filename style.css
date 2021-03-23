@@ -1,44 +1,57 @@
 .vid{
 	display:block;
 	margin:0 auto;
-	width: 60%;
+	width: 50%;
 	border:1px #c1f5bb solid;
+	float:left;
 }
 
-#navbar {
-  margin:0 auto;
-  padding: 0;
-  list-style-type: none;
-  width:80%;
-  background-size:1600px 1600px;
-  padding: 0;
-  list-style-type: none;
-  border: 2px solid green;
-  border-radius: 5px 5px;
- 
-  text-align: center;
-  background-color: green;
+* {box-sizing: border-box; margin: 0;}
+.widget {
+  padding: 20px 30px;
+  background: #cbccdb;
+  font-family: 'Roboto', sans-serif;
+  float:left;
+  position:fixed;
+  height:100%
 }
-#navbar li { display: inline; }
-
-#navbar a {
-  color: #fff;
-  padding: 5px 10px;
+.widget-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:green;
+  font-size: 16px;
+  
+  
+}
+.widget-list {
+  padding: 0;
+  list-style: none;
+  float:left;
+}
+.widget-list a:before {
+  content: "\2014";
+  margin-right: 14px;
+  float:left;
+}
+.widget-list a {
   text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  width: 100px;
+  outline: none;
+  display: block;
+  padding: 6px 0; 
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #444;
+  transition: .3s linear;
+  float:left;
 }
-#navbar a:hover {
-  border-radius: 5px 5px;
-  background-color: lime;
-}
+.widget-list a:hover {color: #b99d61;}
 .two{
 	background-color:#84C783;
-	width:80%;
+	width:60%;
 	margin:0 auto;
 	border:1px #84C783 solid;
 	border-radius: 5px 5px;
+	
 	
 }
 .one{
@@ -53,19 +66,22 @@
 	width:80%;
 }
 .five{
-	width:80%;
+	width:70%;
 	
 	margin:0 auto;
+	
 	
 }
 .six{
-	width:95%;
+	width:70%;
 	margin:0 auto;
+	
 }
 .eight{
 	width:80%;
 	margin:0 auto;
 	border-top:1px black solid;
+	float:right;
 	
 }
 .seven{
@@ -82,14 +98,15 @@ h2{
 	
 }
 #border{
-	border:1px #b9ffae solid;
-	width:80%;
-	margin:0 auto;
-	border-radius: 5px 5px;
-	background-color:#c1f5bb;
+	
+	width:100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float:right;
 }
 #video{
 	margin:0 auto;
+	
 	
 }
 #float{
@@ -103,4 +120,8 @@ h3{
 	
 	border-bottom:1px #03802a solid;
 	
+}
+#m{
+	width:90%;
+	margin:0 auto;
 }
